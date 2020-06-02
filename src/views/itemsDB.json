@@ -1,0 +1,56 @@
+[
+  {
+    "code": "001",
+    "name": "Book 1",
+    "description": "First book",
+    "category": "Book" 
+  },
+  {
+    "code": "002",
+    "name": "Book 2",
+    "description": "Second book",
+    "category": "Book" 
+  },
+  {
+    "code": "003",
+    "name": "Magazine 1",
+    "description": "First magazine",
+    "category": "Magazine" 
+  },
+  {
+    "code": "004",
+    "name": "Magazine 2",
+    "description": "Second magazine",
+    "category": "Magazine" 
+  },
+  {
+    "code": "005",
+    "name": "Newspaper 1",
+    "description": "First newspaper",
+    "category": "Newspaper" 
+  },
+  {
+    "code": "006",
+    "name": "Newspaper 2",
+    "description": "Second newspaper",
+    "category": "Newspaper" 
+  },
+  {
+    "code": "007",
+    "name": "CD 1",
+    "description": "CD best of the 80's",
+    "category": "Other" 
+  },
+  {
+    "code": "008",
+    "name": "CD 2",
+    "description": "Best of the 90's",
+    "category": "Other" 
+  },
+  {
+    "code": "009",
+    "name": "VHS 1",
+    "description": "A beautiful sunset",
+    "category": "Other" 
+  }
+]

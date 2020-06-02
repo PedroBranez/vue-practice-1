@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <DataComponent msg="Tabla" :itemsDB="dataElements" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import DataComponent from "@/components/DataComponent.vue";
+import jsonFile from "./itemsDB.json";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    DataComponent
+  },
+  data() {
+    return {
+      dataElements: jsonFile
+    };
   }
 };
 </script>
